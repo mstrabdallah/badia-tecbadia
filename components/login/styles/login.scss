@@ -1,0 +1,98 @@
+@import "~assets/styles/var.scss";
+
+.login {
+  padding-right: 15px;
+  padding-left: 15px;
+  transition: 1s;
+
+  .loginBG {
+    background: url("/images/bg_login.svg") no-repeat;
+    background-size: 100% 100%;
+    max-width: 977px;
+    height: 441.45px;
+    margin: auto;
+    margin-top: 90px;
+  }
+  .v-input__slot {
+    box-shadow: none !important;
+  }
+
+  .title {
+    font-size: 38px !important;
+    font-family: "Almarai" !important;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    line-height: 40px;
+
+    span {
+      color: $c-t;
+    }
+  }
+
+  .form_login_cc {
+    max-width: 550px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 250px;
+    position: relative;
+
+    .v-input__control {
+      label {
+        color: #c4c4c4;
+      }
+    }
+
+    fieldset {
+      border: 1px solid #c4c4c4;
+      border-radius: 15px;
+    }
+
+    .label {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 33px;
+      padding-bottom: 15px;
+      display: block;
+    }
+
+    .button_login {
+      background: $c-f !important;
+      border-radius: 15px;
+      width: 100%;
+      padding: 15px;
+      color: #fff;
+      font-weight: 700;
+      margin-top: 50px;
+      height: 60px;
+    }
+
+    .Forgot {
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: -20px;
+      position: absolute;
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      color: #0a043c !important;
+      opacity: 0.5;
+    }
+  }
+
+  @media (max-width: 959px) {
+    .loginBG {
+      max-width: 100%;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .loginBG {
+      display: none;
+    }
+  }
+}

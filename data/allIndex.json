@@ -1,0 +1,10 @@
+{
+  "loadingSlider": false,
+  "slider": [
+    {
+      "title": "test",
+      "description": "description ..",
+      "image": "image"
+    }
+  ]
+}

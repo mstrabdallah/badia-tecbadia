@@ -1,0 +1,17 @@
+.pricePage {
+  margin-bottom: 120px;
+  margin-top: -23px;
+}
+.business .bunch ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.business .bunch ul::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.business .bunch ul::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}

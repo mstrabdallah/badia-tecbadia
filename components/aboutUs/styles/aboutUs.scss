@@ -1,0 +1,21 @@
+@import '~assets/styles/var.scss';
+
+.aboutUsPage {
+    .headPages {
+        height: 400px;
+    }
+
+    .Customers_about{
+        .IsecImg{
+            background:none;
+        }
+    }
+
+
+    .portifolio{
+        background:none;
+       &:after{
+        background:none;
+       }
+    }
+}

@@ -1,0 +1,20 @@
+@import "~assets/styles/var.scss";
+.service {
+  background: #ffffff;
+  box-shadow: 3px 6px 10px 6px rgb(217 217 217 / 20%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 134.66px;
+  transition: 1s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px solid $c-b-p;
+  }
+  img {
+    width: 108px;
+    height: 108px;
+  }
+}

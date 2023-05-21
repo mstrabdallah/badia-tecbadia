@@ -1,0 +1,238 @@
+@import "~assets/styles/var.scss";
+
+.orderCard {
+  .tec {
+    background: #ffffff;
+    box-shadow: 3px 6px 10px 6px rgb(217 217 217 / 20%);
+    border-radius: 20px;
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    .v-image {
+      width: 64px;
+      height: 64px;
+      max-width: 64px;
+      background: #ffffff;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+      border-radius: 10px;
+    }
+
+    .tecInfo {
+      padding: 0px 15px;
+
+      .tecName {
+        font-weight: 600;
+        font-size: 18px;
+        margin-top: -20px;
+      }
+    }
+
+    .id {
+      font-size: 13px;
+      margin-top: 1px;
+    }
+
+    .price {
+      font-weight: 900;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .colReight {
+      display: flex !important;
+      justify-content: flex-end;
+    }
+
+    .statusAndDate {
+      margin-top: 40px;
+    }
+
+    .status {
+      text-align: center;
+      width: max-content;
+      padding: 7px 30px;
+      background: rgba(100, 200, 130, 0.16);
+      border-radius: 20px;
+      font-weight: 500;
+
+      &.Accepted {
+        color: #64c882;
+      }
+
+      &.Pending {
+        color: #ffc104;
+        background: rgba(244, 179, 46, 0.25);
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        border-radius: 1px solid #ccc;
+      }
+    }
+
+    .date {
+      padding-left: 58px;
+      position: relative;
+      height: 100%;
+
+      &::before {
+        content: "";
+        background: url(/icons/date.svg) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        margin-left: -40px;
+        background-size: contain;
+      }
+
+      &:lang(ar) {
+        padding-left: 0px !important;
+
+        &::before {
+          margin-right: -40px;
+          margin-left: 0px;
+        }
+      }
+    }
+
+    .des {
+      color: #999999;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      border-top: 1px #ccc dashed;
+      padding-top: 20px;
+      margin-top: 30px;
+      height: 91px;
+      overflow: hidden;
+    }
+
+    .ActiveUrl {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      p {
+        font-size: 10px;
+        line-height: 15px;
+        color: #02b576;
+        margin-top: 11px;
+        padding-right: 15px;
+
+        &:lang(ar) {
+          padding-left: 15px;
+          padding-right: 0px;
+        }
+      }
+
+      a {
+        background: #f2f2f2;
+        border-radius: 100px;
+        font-size: 14px;
+        height: 27px;
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        padding: 0px 24px;
+      }
+    }
+  }
+}
+
+.orderTabel {
+  margin-top: 68px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 55px;
+
+  .borderTop {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-top: 65px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 40px;
+  }
+
+  .v-data-table__wrapper {
+    background: #fafafa;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 300px;
+  }
+
+  .status {
+    width: 10px;
+    height: 10px;
+
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 8px;
+
+    &:lang(ar) {
+      margin-left: 8px;
+      margin-right: 0px;
+    }
+
+    &.Pending {
+      background: #ffc104;
+    }
+
+    &.Accepted {
+      background: #00dda5;
+    }
+  }
+}
+
+.ordersPage {
+  margin-bottom: 150px;
+
+  .headPages_content {
+    h3 {
+      font-size: 40px;
+    }
+  }
+
+  .orders_table {
+    .v-data-table {
+      background: #ffffff;
+      padding: 20px;
+      min-height: 340px;
+      border: 1px solid #dedede;
+    }
+  }
+
+  .noData {
+    min-height: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 599px) {
+    .orderCard {
+      .tec {
+        .header_ {
+          flex-direction: column;
+
+          .tecInfo {
+            margin-top: 30px;
+          }
+        }
+
+        .colReight {
+          justify-content: center;
+        }
+
+        .status {
+          margin: auto;
+        }
+
+        .ActiveUrl {
+          align-items: center;
+        }
+      }
+    }
+  }
+}

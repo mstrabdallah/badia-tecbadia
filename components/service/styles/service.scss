@@ -1,0 +1,129 @@
+@import "~assets/styles/var.scss";
+
+.servicePage {
+  margin-bottom: 150px;
+
+  .requestForm {
+    margin-top: 80px;
+    padding: 30px 14px;
+
+    .input {
+      max-width: 365px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+
+      .v-input__slot {
+        border-radius: 15px;
+        min-height: 48px !important;
+      }
+
+      .v-label {
+        margin-top: -22px;
+        background: #fff;
+        padding: 0px 7px;
+        margin-left: 20px;
+        font-weight: bold;
+        color: #999999;
+
+        &.v-label--active {
+          margin-top: auto;
+          padding: 0px;
+          margin-left: auto;
+
+          :lang(ar) {
+            margin-right: 5px;
+          }
+
+          :lang(en) {
+            margin-left: 5px;
+          }
+        }
+
+        .v-text-field__suffix {
+          direction: ltr;
+        }
+      }
+    }
+
+    .inputDomain {
+      width: 100%;
+      margin-top: 10px;
+      max-width: 814px;
+
+      .v-text-field__slot,
+      .v-text-field__suffix {
+        direction: ltr;
+      }
+
+      input {
+        direction: rtl;
+      }
+    }
+
+    .reqProducts {
+      max-width: 750px;
+      margin: auto;
+      margin-top: 30px;
+      color: #999999;
+
+      h4 {
+        font-weight: 500;
+        font-size: 20px;
+      }
+
+      .priceCheckBox {
+        color: #ff3249;
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      .priceContainer {
+        color: #ff3249;
+        margin-top: 30px;
+
+        .priceLabel {
+          font-weight: 700;
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+      }
+
+      .price {
+        span {
+          font-size: 12px;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: flex-end;
+
+        .submit {
+          background: $c-p;
+          border-radius: 15px;
+          box-shadow: none;
+          color: #fff;
+          margin-top: 20px;
+          padding: 0px 31px;
+          height: 41px;
+          font-weight: 800;
+        }
+      }
+    }
+
+    .Note {
+      padding-top: 17px;
+      font-size: 14px;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  @media (max-width:599px) {
+    .inputDomain{
+      max-width: 365px!important;
+    }
+  }
+}

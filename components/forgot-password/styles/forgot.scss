@@ -1,0 +1,33 @@
+@import '~assets/styles/var.scss';
+.forgot {
+
+    margin-bottom: 160px;
+
+    .forgotContent {
+        .note {
+
+            text-align: center;
+            margin-top: 60px;
+        }
+    }
+
+    .form {
+        max-width: 500px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .btnSub {
+        height: 62px!important;
+        background-color: var(--c-f) !important;
+        border-radius: 15px;
+        width: 100%;
+        font-weight: 700;
+        margin-top: 12px;
+        color: #fff;
+    }
+
+    .hide{
+        display: none;
+    }
+}
