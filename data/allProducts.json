@@ -1,0 +1,26 @@
+{
+  "loadingProduct": false,
+  "products": [
+    {
+      "description": "Short Description For product. This is just an example for decriping the products in hand.",
+      "title": "ERP System",
+      "image": "/photos/portfolio/883shots_so 1.png",
+      "default_price": "3000",
+      "rate": 5
+    },
+    {
+      "description": "Short Description For product. This is just an example for decriping the products in hand.",
+      "title": "ERP System",
+      "image": "/photos/portfolio/883shots_so 1.png",
+      "default_price": "3000",
+      "rate": 5
+    },
+    {
+      "description": "Short Description For product. This is just an example for decriping the products in hand.",
+      "title": "ERP System",
+      "image": "/photos/portfolio/883shots_so 1.png",
+      "default_price": "3000",
+      "rate": 5
+    }
+  ]
+}

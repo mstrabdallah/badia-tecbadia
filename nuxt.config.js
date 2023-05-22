@@ -2,10 +2,10 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
 
   generate: { fallback: true },
-  loading:false,
-  target: "static", // default is 'server'
+  loading: false,
+  // target: "static", // default is 'server'
   head: {
-    title: "باديا تك",
+    title: "TecBadia",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -33,7 +33,7 @@ export default {
   script: [{}],
 
 
- 
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     "~/plugins/axios.js",

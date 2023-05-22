@@ -33,6 +33,8 @@
 </template>
 
 <script>
+import allServices from "../../../data/allServices.json";
+
 import { mapActions, mapGetters } from "vuex";
 import Loading from "../../tools/loadingP.vue";
 
@@ -41,14 +43,14 @@ export default {
     Loading,
   },
   computed: {
-    ...mapGetters(["allServices"]),
+    // ...mapGetters(["allServices"]),
   },
   methods: {
-    ...mapActions(["getservices", "setserviceActive"]),
-    setserviceActive_(payload) {
-      this.$scrollTo("Services_Active");
-      this.setserviceActive(payload);
-    },
+    // ...mapActions(["getservices", "setserviceActive"]),
+    // setserviceActive_(payload) {
+    //   this.$scrollTo("Services_Active");
+    //   this.setserviceActive(payload);
+    // },
   },
   async mounted() {
     // await this.getservices();
@@ -59,3 +61,5 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/service.scss";
 </style>
+
+

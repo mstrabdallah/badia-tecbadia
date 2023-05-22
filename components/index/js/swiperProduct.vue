@@ -20,6 +20,7 @@
           background-color="#FFD687"
           color="#FFD687"
           large
+          readonly
         ></v-rating>
         <p>
           <span>{{ res.default_price }}</span> {{ $t(allAuth.country) }}
@@ -38,6 +39,8 @@
 </template>
 
 <script>
+import allProducts from "../../../data/allProducts.json";
+
 import { Hooper, Slide, Navigation as HooperNavigation } from "hooper";
 import { mapActions, mapGetters } from "vuex";
 
@@ -50,6 +53,7 @@ export default {
   },
   data() {
     return {
+      allProducts: allProducts,
       hooperSettings: {
         infiniteScroll: false,
         wheelControl: false,
@@ -76,13 +80,13 @@ export default {
     };
   },
   mounted() {
-    this.getproducts();
+    // this.getproducts();
   },
   computed: {
     ...mapGetters(["allProducts", "allAuth"]),
   },
   methods: {
-    ...mapActions(["getproducts"]),
+    // ...mapActions(["getproducts"]),
   },
 };
 </script>

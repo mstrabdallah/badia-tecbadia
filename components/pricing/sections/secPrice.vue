@@ -46,7 +46,7 @@
           <div class="bunch" data-aos="fade-up" data-aos-duration="1000">
             <div class="bunch_head" v-if="i === 1">{{ $t("Recommended") }}</div>
             <div class="bunch_">
-              <h3>{{ res.title }}</h3>
+              <h3>{{ $t(res.title) }}</h3>
               <div class="price">
                 <strong v-if="Bill === 'monthly'">
                   {{ res.price }} <span>{{ $t(allAuth.country) }}</span>
@@ -98,11 +98,14 @@
   </section>
 </template>
 <script>
+import allPricings from "../../../data/allPricings.json";
+
 import Loading from "../../tools/loadingP.vue";
 import { mapActions, mapGetters } from "vuex";
 export default {
   data() {
     return {
+      allPricings: allPricings,
       Bill: "yearly",
     };
   },
@@ -111,7 +114,11 @@ export default {
     Loading,
   },
   computed: {
-    ...mapGetters(["allPricings", "AllListOforder", "allAuth"]),
+    ...mapGetters([
+      // "allPricings",
+      "AllListOforder",
+      "allAuth",
+    ]),
   },
   methods: {
     ...mapActions(["orderCreate", "register"]),

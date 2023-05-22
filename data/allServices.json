@@ -1,0 +1,55 @@
+{
+  "loading": false,
+  "data": [
+    {
+      "id": 1,
+      "title": "Beauty",
+      "image": "/photos/services/Beauty logo f-01 1.png"
+    },
+    {
+      "id": 2,
+      "title": "Biqalati",
+      "image": "/photos/services/biqalati.png"
+    },
+    {
+      "id": 3,
+      "title": "Clinker",
+      "image": "/photos/services/clinker.png"
+    },
+    {
+      "id": 4,
+      "title": "coffee tech",
+      "image": "/photos/services/coffee tech.png"
+    },
+    {
+      "id": 5,
+      "title": "Food",
+      "image": "/photos/services/food.png"
+    },
+    {
+      "id": 6,
+      "title": "khayaat",
+      "image": "/photos/services/khayaat.png"
+    },
+    {
+      "id": 7,
+      "title": "jamiea",
+      "image": "/photos/services/jamiea.png"
+    },
+    {
+      "id": 8,
+      "title": "lawyer",
+      "image": "/photos/services/lawyer.png"
+    },
+    {
+      "id": 9,
+      "title": "petro",
+      "image": "/photos/services/petro.png"
+    },
+    {
+      "id": 10,
+      "title": "Aqar Tech",
+      "image": "/photos/services/عقار تك-0١.png"
+    }
+  ]
+}

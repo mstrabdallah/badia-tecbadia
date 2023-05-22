@@ -40,20 +40,27 @@
 </template>
 
 <script>
+import allPartners from "../../../data/allPartners.json";
+
 import { mapActions, mapGetters } from "vuex";
 import Loading from "../../tools/loadingP.vue";
 export default {
+  data() {
+    return {
+      allPartners: allPartners,
+    };
+  },
   components: {
     Loading,
   },
   computed: {
-    ...mapGetters(["allPartners"]),
+    // ...mapGetters(["allPartners"]),
   },
   methods: {
-    ...mapActions(["getParteners"]),
+    // ...mapActions(["getParteners"]),
   },
   mounted() {
-    this.getParteners();
+    // this.getParteners();
   },
 };
 </script>

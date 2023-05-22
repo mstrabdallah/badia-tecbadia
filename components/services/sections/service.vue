@@ -29,20 +29,27 @@
 </template>
 
 <script>
+import allServices from "../../../data/allServices.json";
+
 import { mapActions, mapGetters } from "vuex";
 import Loading from "../../tools/loadingP.vue";
 export default {
+  data() {
+    return {
+      allServices: allServices,
+    };
+  },
   components: {
     Loading,
   },
   computed: {
-    ...mapGetters(["allServices"]),
+    // ...mapGetters(["allServices"]),
   },
   methods: {
-    ...mapActions(["getservices"]),
+    // ...mapActions(["getservices"]),
   },
   mounted() {
-    this.getservices();
+    // this.getservices();
   },
 };
 </script>

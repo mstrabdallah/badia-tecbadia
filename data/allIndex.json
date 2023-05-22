@@ -3,8 +3,103 @@
   "slider": [
     {
       "title": "Your Technological Solution",
-      "description": "description ..",
-      "image": "image"
+      "description": "TecBadia is one of the leading software development companies that provides all programming solutions for all kinds of businesses.",
+      "image": "/photos/slider1.png"
+    },
+    {
+      "title": "Why TechBadia?",
+      "description": "Tech Badia is the only one that has dedicated a program for each field of work, which enables the customer to easily manage his business at any time and from anywhere with the least effort and cost possible.",
+      "image": "/photos/slider2.png"
+    },
+    {
+      "title": "What are TecBadia services?",
+      "description": "TechBadia provides all programming services for all types of businesses at the highest level of professionalism, you will find a customized program suitable for any field of your business.",
+      "image": "/photos/slider3.png"
+    }
+  ],
+  "loadingOpinion": false,
+  "opinion": [
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourCustomers/1.png",
+      "comment": "Tanahair is the friendliest and most efficient company I have ever used. The whole thing takes time to introduce the product and as a result puts forward only the best opportunities that really suit you. they help from start to finish to create a great product identity for your company",
+      "name": "Jayson brown",
+      "position": "Product Designer"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourCustomers/2.png",
+      "comment": "Tanahair is the friendliest and most efficient company I have ever used. The whole thing takes time to introduce the product and as a result puts forward only the best opportunities that really suit you. they help from start to finish to create a great product identity for your company",
+      "name": "Clay Johnson",
+      "position": "Business Director"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourCustomers/3.png",
+      "comment": "Tanahair is the friendliest and most efficient company I have ever used. The whole thing takes time to introduce the product and as a result puts forward only the best opportunities that really suit you. they help from start to finish to create a great product identity for your company",
+      "name": "Shalima Hayden",
+      "position": "Product Designer"
+    }
+  ],
+  "loadingOurClients": false,
+  "ourClientsCol1": [
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/1.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/2.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/3.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/3.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/3.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/2.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/2.png"
+    }
+  ],
+  "ourClientsCol2": [
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/3.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/1.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/2.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/3.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/3.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/2.png"
+    },
+    {
+      "title": "Your Technological Solution",
+      "image": "/photos/ourClients/2.png"
     }
   ]
 }

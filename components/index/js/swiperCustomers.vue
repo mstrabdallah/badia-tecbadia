@@ -23,6 +23,8 @@
 </template>
 
 <script>
+import allIndex from "../../../data/allIndex.json";
+
 import { Hooper, Slide, Navigation as HooperNavigation } from "hooper";
 import { mapActions, mapGetters } from "vuex";
 
@@ -35,6 +37,7 @@ export default {
   },
   data() {
     return {
+      allIndex: allIndex,
       hooperSettings: {
         infiniteScroll: false,
         wheelControl: false,
@@ -61,13 +64,13 @@ export default {
     };
   },
   mounted() {
-    this.getOpinion();
+    // this.getOpinion();
   },
   computed: {
-    ...mapGetters(["allIndex"]),
+    // ...mapGetters(["allIndex"]),
   },
   methods: {
-    ...mapActions(["getOpinion"]),
+    // ...mapActions(["getOpinion"]),
   },
 };
 </script>

@@ -6,8 +6,8 @@
           <v-row class="hooperRow">
             <v-col cols="12" md="6" lg="6">
               <div class="portifolio_content_">
-                <h3>{{ res.title }}</h3>
-                <p>{{ res.description }}</p>
+                <h3>{{ $t(res.title) }}</h3>
+                <p>{{ $t(res.description) }}</p>
               </div>
             </v-col>
 
@@ -33,6 +33,8 @@
 </template>
 
 <script>
+import allPortfolio from "../../../data/allPortfolio.json";
+
 import { Hooper, Slide, Pagination as HooperPagination } from "hooper";
 import { mapActions, mapGetters } from "vuex";
 
@@ -45,6 +47,7 @@ export default {
   },
   data() {
     return {
+      allPortfolio: allPortfolio,
       hooperSettings: {
         infiniteScroll: false,
         wheelControl: false,
@@ -56,14 +59,14 @@ export default {
   },
 
   computed: {
-    ...mapGetters(["allPortfolio"]),
+    // ...mapGetters(["allPortfolio"]),
   },
 
   methods: {
-    ...mapActions(["getPortfolio"]),
+    // ...mapActions(["getPortfolio"]),
   },
   mounted() {
-    this.getPortfolio();
+    // this.getPortfolio();
   },
 };
 </script>

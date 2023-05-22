@@ -10,8 +10,8 @@
           <slide v-for="(res, i) in allIndex.slider" :key="i">
             <v-row no-gutters class="hooperRow">
               <v-col cols="12" md="6" lg="5" class="zindex1">
-                <h1 class="h1">{{ res.title }}</h1>
-                <p>{{ res.description }}</p>
+                <h1 class="h1">{{ $t(res.title) }}</h1>
+                <p>{{ $t(res.description) }}</p>
 
                 <div class="head_btns">
                   <NuxtLink :to="localePath('/services')">
@@ -104,7 +104,7 @@
 <script>
 // import SwiperHead from "../js/SwiperHead.vue";
 import allIndex from "../../../data/allIndex.json";
-console.log(allIndex);
+
 import { mapGetters, mapActions } from "vuex";
 import { Hooper, Slide, Pagination as HooperPagination } from "hooper";
 import Loading from "../../tools/loadingP.vue";

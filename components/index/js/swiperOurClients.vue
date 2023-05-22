@@ -38,6 +38,8 @@
 </template>
 
 <script>
+import allIndex from "../../../data/allIndex.json";
+
 import { Hooper, Slide, Navigation as HooperNavigation } from "hooper";
 import { mapActions, mapGetters } from "vuex";
 
@@ -51,6 +53,7 @@ export default {
   props: ["itemsToShow"],
   data() {
     return {
+      allIndex: allIndex,
       hooperSettings: {
         infiniteScroll: false,
         wheelControl: false,

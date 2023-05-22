@@ -1,0 +1,68 @@
+{
+  "loading": false,
+  "pricings": [
+    {
+      "title": "Basic",
+      "price": "0",
+      "yearly_price": "0",
+      "forever_price": "0",
+      "discount_description": "",
+      "properties": [
+        {
+          "title": "1 Project"
+        },
+        {
+          "title": "1 Collaborator"
+        },
+        {
+          "title": "Unlimited project"
+        },
+        {
+          "title": "Resource management"
+        }
+      ]
+    },
+    {
+      "title": "Standard",
+      "price": 39,
+      "yearly_price": 399,
+      "forever_price": 3999,
+      "discount_description": "Save 25% when paid annually",
+      "properties": [
+        {
+          "title": "100 Project"
+        },
+        {
+          "title": "5 Collaborator"
+        },
+        {
+          "title": "Unlimited project"
+        },
+        {
+          "title": "Resource management"
+        }
+      ]
+    },
+    {
+      "title": "Ultimate",
+      "price": 99,
+      "yearly_price": 999,
+      "forever_price": 9999,
+      "discount_description": "Save 35% when paid annually",
+      "properties": [
+        {
+          "title": "Unlimited Project"
+        },
+        {
+          "title": "Unlimited Collaborator"
+        },
+        {
+          "title": "Unlimited project"
+        },
+        {
+          "title": "Resource management"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "loading": false,
+  "partners": [
+    {
+      "id": 1,
+      "title": "Portfolio",
+      "image": "/photos/ourPartners/image 1.png"
+    },
+    {
+      "id": 2,
+      "title": "Portfolio",
+      "image": "/photos/ourPartners/logo_payme_en 1.png"
+    }
+  ]
+}

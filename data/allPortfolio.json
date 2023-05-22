@@ -1,0 +1,20 @@
+{
+  "loading": false,
+  "portfolio": [
+    {
+      "description": "TecBadia offers its software services for all types of businesses at the highest level of professionalism. You will certainly find a program specific to your field of work.",
+      "title": "Portfolio",
+      "image": "/photos/portfolio/883shots_so 1.png"
+    },
+    {
+      "description": "TecBadia offers its software services for all types of businesses at the highest level of professionalism. You will certainly find a program specific to your field of work.",
+      "title": "Portfolio",
+      "image": "/photos/portfolio/1458 1.png"
+    },
+    {
+      "description": "TecBadia offers its software services for all types of businesses at the highest level of professionalism. You will certainly find a program specific to your field of work.",
+      "title": "Portfolio",
+      "image": "/photos/portfolio/1458 1.png"
+    }
+  ]
+}
