@@ -1,9 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
 
-  // generate: { fallback: true },
-  // loading: false,
-  // target: "static", // default is 'server'
+  generate: { fallback: true },
+  loading: false,
+  target: "static", // default is 'server'
   head: {
     title: "TecBadia",
     meta: [
