@@ -11,10 +11,10 @@ export default {
     SecPrice,
   },
   methods: {
-    ...mapActions(["getPricings"]),
+    // ...mapActions(["getPricings"]),
   },
   mounted() {
-    this.getPricings();
+    // this.getPricings();
   },
 };
 </script>

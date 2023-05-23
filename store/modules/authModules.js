@@ -14,7 +14,7 @@ const state = {
   forgotP: [],
   country: "SA",
   countryState: false,
-  getUserDataLoading:true
+  getUserDataLoading: true
 };
 
 const getters = {
@@ -53,12 +53,12 @@ const actions = {
   //----
   async setApi({ state }) {
 
-     if (this.$router.app.context.$cookies.get("token")) {
+    if (this.$router.app.context.$cookies.get("token")) {
       state.checkAuth = true;
 
 
-      state.token =  this.$router.app.context.$cookies.get("token");
-       state.user = this.$router.app.context.$cookies.get("user");
+      state.token = this.$router.app.context.$cookies.get("token");
+      state.user = this.$router.app.context.$cookies.get("user");
       state.UserName = state.user?.name;
       await this.$axios.setHeader("Authorization", "Bearer " + this.$router.app.context.$cookies.get("token"));
     }

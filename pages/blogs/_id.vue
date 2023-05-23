@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex';
+import { mapActions, mapGetters } from "vuex";
 import Blog from "../../components/blogs/sections/blog.vue";
 export default {
   components: { Blog },

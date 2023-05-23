@@ -33,14 +33,14 @@ export default {
   },
 
   mounted() {
-    this.getservice(this.$route.params.id);
-    this.getPricings();
+    // this.getservice(this.$route.params.id);
+    // this.getPricings();
   },
   computed: {
     ...mapGetters(["allServices", "allAuth"]),
   },
   methods: {
-    ...mapActions(["getservice", "getPricings"]),
+    // ...mapActions(["getservice", "getPricings"]),
   },
 };
 </script>

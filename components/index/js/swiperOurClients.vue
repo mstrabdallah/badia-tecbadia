@@ -80,13 +80,13 @@ export default {
     };
   },
   mounted() {
-    this.getHomeOurClients();
+    // this.getHomeOurClients();
   },
   computed: {
-    ...mapGetters(["allIndex"]),
+    // ...mapGetters(["allIndex"]),
   },
   methods: {
-    ...mapActions(["getHomeOurClients"]),
+    // ...mapActions(["getHomeOurClients"]),
   },
 };
 </script>

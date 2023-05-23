@@ -27,10 +27,10 @@ export default {
     SecPrice,
   },
   methods: {
-    ...mapActions(["getPricings"]),
+    // ...mapActions(["getPricings"]),
   },
   async mounted() {
-    await this.getPricings();
+    // await this.getPricings();
   },
 };
 </script>

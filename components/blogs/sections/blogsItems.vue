@@ -90,11 +90,11 @@ export default {
     var slug = this.$route.params.slug;
 
     if (slug === undefined) return false;
-    await this.$axios
-      .get("https://api.tecbadia.com/api/blogs/list?slug=" + slug)
-      .then((res) => {
-        this.setDataGetBlogs({ data: res.data, slug: slug });
-      });
+    // await this.$axios
+    //   .get("https://api.tecbadia.com/api/blogs/list?slug=" + slug)
+    //   .then((res) => {
+    //     this.setDataGetBlogs({ data: res.data, slug: slug });
+    //   });
   },
 };
 </script>

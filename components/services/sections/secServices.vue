@@ -39,6 +39,12 @@ import { mapActions, mapGetters } from "vuex";
 import Loading from "../../tools/loadingP.vue";
 
 export default {
+  data() {
+    return {
+      allServices: allServices,
+    };
+  },
+
   components: {
     Loading,
   },

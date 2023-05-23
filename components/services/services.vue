@@ -83,7 +83,7 @@ export default {
     },
   },
   async mounted() {
-    await this.getservices();
+    // await this.getservices();
   },
 };
 </script>

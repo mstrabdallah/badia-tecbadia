@@ -45,10 +45,10 @@ const actions = {
     if (state.blogs?.blogs?.data?.length > 0) return false;
     state.loading = true;
 
-    await this.$axios.get(`api/blogs/list`).then((res) => {
-      state.blogs = res.data;
-      state.loading = false;
-    })
+    // await this.$axios.get(`api/blogs/list`).then((res) => {
+    //   state.blogs = res.data;
+    //   state.loading = false;
+    // })
   },
 
 
